@@ -1,0 +1,21 @@
+#header {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+p, h3, li, .text {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+table, th, td {
+	border-collapse: collapse;
+	border: 2px solid green;
+	padding: 20px;
+	margin: 20px; 
+}
+body {
+	background-color: lightgreen;
+}
+@media (min-width: 500px) {
+	.screen-only {
+		display: none;
+	}
+}

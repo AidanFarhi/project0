@@ -2,7 +2,7 @@
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-p, h3, li, .text {
+p, h3, li, .text, body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 table, th, td {
@@ -18,4 +18,12 @@ body {
 	.screen-only {
 		display: none;
 	}
+}
+.col-sm {
+	border: 2px solid darkgreen;
+	border-collapse: collapse;
+	margin-top: 5px;
+	padding: 15px;
+	text-align: center;
+	font-size: 24px
 }

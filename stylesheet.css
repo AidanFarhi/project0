@@ -1,4 +1,4 @@
-#header {
+.header {
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -14,11 +14,16 @@ table, th, td {
 body {
 	background-color: lightgreen;
 }
-@media (min-width: 500px) {
-	.screen-only {
-		display: none;
+@media (min-width: 300px) {
+	#index-header::before {
+		content: "This is My Amazing Family";
 	}
-}
+}	
+@media (max-width: 299px) {
+	#index-header::before {
+		content: "My Family";
+	}
+}	
 .col-sm {
 	border: 2px solid darkgreen;
 	border-collapse: collapse;
@@ -26,4 +31,12 @@ body {
 	padding: 15px;
 	text-align: center;
 	font-size: 24px
+}
+table {
+	margin: 0 auto
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
